@@ -4,7 +4,6 @@ import { Route, Routes } from 'react-router-dom';
 
 import Header from './Header/Header';
 import Home from './Home';
-import Layout from './Layout';
 import Work from './Work/Work';
 
 function App() {

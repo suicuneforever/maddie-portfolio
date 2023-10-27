@@ -1,7 +1,5 @@
 import './Work.scss';
 
-import ReactPlayer from 'react-player';
-
 const className = `Work`;
 
 const videoArray = [

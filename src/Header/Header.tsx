@@ -2,8 +2,6 @@ import './Header.scss';
 
 import { Link, Outlet } from 'react-router-dom';
 
-import TextSplitter from '../components/TextSplitter';
-
 const className = `Header`;
 
 function Header() {
