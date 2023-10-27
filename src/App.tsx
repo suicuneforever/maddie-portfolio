@@ -2,9 +2,9 @@ import './App.css';
 
 import { Route, Routes } from 'react-router-dom';
 
-import Header from './Header/Header';
-import Home from './Home';
-import Work from './Work/Work';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Work from './pages/Work';
 
 function App() {
   return (
