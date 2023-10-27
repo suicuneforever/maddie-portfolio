@@ -1,0 +1,56 @@
+@import url('/fonts.css');
+
+$base-color: #6e6bcd;
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+
+  &__name {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4rem;
+    color: $base-color;
+    font-weight: bold;
+
+    &:hover {
+      color: $base-color;
+      -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+      -webkit-text-stroke: 1px $base-color;
+      font-weight: 100;
+    }
+  }
+
+  &__navigation {
+    font-family: 'SpaceMono', courier;
+    text-transform: lowercase;
+    font-size: 14px;
+    align-self: center;
+
+    a {
+      margin-right: 20px;
+    }
+
+    a:last-child {
+      margin-right: 0px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    // display: inline-block;
+  }
+
+  Link {
+    text-decoration: none;
+  }
+}
