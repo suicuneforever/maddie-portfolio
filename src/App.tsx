@@ -9,13 +9,14 @@ import Work from './pages/Work';
 function App() {
   return (
     <>
-      <Routes>
+      <p>hi</p>
+      {/* <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Home />} />
           <Route path="/work" element={<Work />} />
-          {/* <Route path="*" element={<Home />} /> */}
+          {/* <Route path="*" element={<Home />} />
         </Route>
-      </Routes>
+      </Routes> */}
     </>
   );
 }
