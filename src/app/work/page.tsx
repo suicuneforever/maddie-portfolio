@@ -1,6 +1,6 @@
-import './Work.scss';
+import './work.scss';
 
-const className = `Work`;
+const className = `work`;
 
 const videoArray = [
   'https://www.youtube.com/watch?v=ETpXvoWPRdI',
