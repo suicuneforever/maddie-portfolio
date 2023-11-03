@@ -1,10 +1,10 @@
 'use client';
 
-import './Header.scss';
+import './header.scss';
 
 import Link from 'next/link';
 
-const className = `Header`;
+const className = `header`;
 
 function Header() {
   return (
